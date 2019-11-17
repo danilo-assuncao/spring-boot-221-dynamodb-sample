@@ -1,1 +1,1 @@
-rootProject.name = "spring-boot-221-dynamodb-sample"
+rootProject.name = "spring-boot-kotlin-dynamodb-sample"
