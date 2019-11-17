@@ -2,6 +2,7 @@ package com.dassuncao.spring.data.dynamodb.sample.entity
 
 import com.amazonaws.services.dynamodbv2.datamodeling.*
 import org.springframework.data.annotation.Id
+import javax.validation.constraints.NotNull
 
 @DynamoDBTable(tableName = "User")
 data class UserEntity(

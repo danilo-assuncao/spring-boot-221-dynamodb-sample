@@ -18,6 +18,7 @@ repositories {
 
 val springCloudVersion = "Hoxton.RC2"
 val springDataDynamoDB = "5.2.0-SNAPSHOT"
+val apacheCommonsLang3 = "3.9"
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
@@ -28,6 +29,8 @@ dependencies {
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	implementation("org.springframework.cloud:spring-cloud-starter-sleuth")
 	implementation("io.github.boostchicken:spring-data-dynamodb:$springDataDynamoDB")
+	implementation("org.apache.commons:commons-lang3:$apacheCommonsLang3")
+	
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
 	}
